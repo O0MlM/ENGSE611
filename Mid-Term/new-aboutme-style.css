@@ -1,0 +1,102 @@
+body {
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+h1 {
+    color: #fff;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+p {
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p.mood img {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    color: #FF5733;
+    font-family: 'Georgia', serif;
+    margin-top: 30px;
+}
+
+hr {
+    border: 0;
+    border-top: 2px solid #ddd;
+    margin: 20px 0;
+}
+
+
+/* Header */
+.header {
+    background-color: rgb(245, 172, 15);
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+.header b{
+    color: #6532e6;
+}
+
+.header p{
+    color: rgb(124, 24, 255);
+}
+
+/* Section Container */
+.section-container {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.section-container .my-class{
+    text-align: left;
+    display: flex;
+    justify-content: center;
+}
+
+.section-container .my-movie{
+    text-align: left;
+    display: flex;
+    justify-content: center;
+}
+
+.section-container .my-friend{
+    text-align: left;
+    display: flex;
+    justify-content: center;
+}
+
+/* Individual Section Styles */
+.section {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+    font-size: 16px;
+}
+
+/* Background Colors for Sections */
+.light-yellow {
+    background-color: rgb(255, 242, 204);
+}
+
+.light-green {
+    background-color: rgb(213, 232, 212);
+}

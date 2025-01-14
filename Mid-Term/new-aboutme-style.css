@@ -41,8 +41,6 @@ hr {
     margin: 20px 0;
 }
 
-
-/* Header */
 .header {
     background-color: rgb(245, 172, 15);
     text-align: center;
@@ -58,7 +56,6 @@ hr {
     color: rgb(124, 24, 255);
 }
 
-/* Section Container */
 .section-container {
     display: flex;
     justify-content: space-around;
@@ -83,7 +80,6 @@ hr {
     justify-content: center;
 }
 
-/* Individual Section Styles */
 .section {
     flex: 1;
     padding: 20px;
@@ -92,7 +88,6 @@ hr {
     font-size: 16px;
 }
 
-/* Background Colors for Sections */
 .light-yellow {
     background-color: rgb(255, 242, 204);
 }

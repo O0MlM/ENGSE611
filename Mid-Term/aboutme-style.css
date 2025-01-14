@@ -1,5 +1,5 @@
 body {
-    background-color: #f9f9f9;
+    background-color: #f9e5bc;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 20px;
@@ -38,6 +38,11 @@ h2 {
 
 hr {
     border: 0;
-    border-top: 2px solid #ddd;
+    border-top: 2px solid #333333;
     margin: 20px 0;
+}
+
+.button {
+    display: inline-block;
+    border: 2px solid #FF5733;
 }

@@ -48,8 +48,6 @@ function renderTodo(){
     todoList.innerHTML = '';
 
     todos.forEach((todo)=> {
-
-        todo.forEach((todo) => {
             const todoItem = document.createElement("li");
             const todoText = document.createElement("span");
             const deleteButton = document.createElement("button");
@@ -64,8 +62,6 @@ function renderTodo(){
             todoItem.appendChild(todoText);
             todoText.appendChild(deleteButton);
             todoList.appendChild(todoItem);
-        })
-        
     });
 }
 

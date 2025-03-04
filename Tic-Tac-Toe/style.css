@@ -1,0 +1,65 @@
+/**
+ See: CSS Variables
+ https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables
+**/
+:root {
+    --grid-size: 450px;
+    --margin-size: 5px;
+    --square-size: calc((var(--grid-size) / 3) - var(--margin-size));
+  }
+  
+  body {
+    font-family: sans-serif;
+  }
+  
+  #grid {
+    align-content: space-between;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: var(--grid-size);
+    width: var(--grid-size);
+  }
+  
+  #grid div {
+    background-color: pink;
+    height: var(--square-size);
+    width: var(--square-size);
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #grid div img {
+    width: 100%;
+  }
+  
+  #restart {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: #ff4c4c;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s;
+  }
+  
+  #restart:hover {
+    background-color: #e63e3e;
+  }
+  
+  #restart:active {
+    transform: scale(0.95);
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }

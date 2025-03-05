@@ -1,0 +1,116 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7f6;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 30px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #9b59b6; /* Light purple */
+    margin: 0;
+}
+
+h3 {
+    color: #6a4e9f; /* Slightly darker purple */
+    margin-top: 5px;
+}
+
+/* Profile Section */
+.content {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.profile-card {
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    flex: 1;
+    cursor: pointer;
+}
+
+.profile-card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+    margin-right: 15px;
+}
+
+.profile-card img.enlarged {
+    transform: scale(4);
+}
+
+.profile-info h4 {
+    margin: 0;
+    color: #9b59b6; /* Light purple */
+}
+
+.profile-info p {
+    margin: 3px 0;
+    color: #777;
+    font-size: 14px;
+}
+
+/* Exercise List */
+.exercise-list {
+    flex: 2;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background: #9b59b6; /* Light purple */
+    color: white;
+}
+
+tr:nth-child(even) {
+    background: #f4f7f6;
+}
+
+.show-btn {
+    cursor: pointer;
+    background: #9b59b6; /* Light purple */
+    color: white;
+    border: none;
+    padding: 7px 12px;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.show-btn:hover {
+    background: #8e44ad; /* Slightly darker purple */
+}

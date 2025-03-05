@@ -1,0 +1,58 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Center content within the page */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Styling the container */
+.container {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling the button */
+button {
+    background-color: #9b59b6;
+    color: white;
+    font-size: 1rem;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #8e44ad;
+}
+
+/* Styling the message paragraph */
+#message {
+    font-size: 1.2rem;
+    color: #333;
+    margin-top: 20px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+/* Change message style after interaction */
+#message.changed {
+    color: #8e44ad;
+    font-weight: bold;
+    transform: scale(1.1);
+}

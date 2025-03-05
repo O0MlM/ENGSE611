@@ -1,0 +1,37 @@
+/* Basic styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+/* Styling for the animated element  */
+#animateMe {
+    width: 100px;
+    height: 100px;
+    background-color: #a5124a;
+    position: relative;
+    transition: width 2s, height 2s, background-color 2s, left 2s;
+    border-radius: 10%;
+}
+
+/* Styling for the button  */
+#animateButton {
+background-color: #9b59b6;
+    color: white;
+    font-size: 1rem;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#animateButton:hover {
+    background-color: #8e44ad;
+} 
